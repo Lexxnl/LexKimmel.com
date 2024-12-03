@@ -3,26 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Type Animation</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Video Background -->
-    <video autoplay muted loop id="background-video">
-        <source src="bg.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <a href="#welcome-section">Welcome</a>
+        <a href="#projects">Projects</a>
+        <a id="profile-link" href="https://github.com/Lexxnl" target="_blank">Profile</a>
+    </nav>
 
-    <!-- Content -->
-    <div class="container">
-        <p class="static-text">Hi, I'm Lex.</p>
-        <p class="static-text">I'm a <span class="dynamic-text"></span></p>
-        <p class="short-description">Thank you for visiting my website. Explore the latest projects I’ve been working on.</p>
-    </div>
+    <!-- Welcome Section -->
+    <section id="welcome-section">
+        <h1>Welcome to My Portfolio</h1>
+        <div class="intro-container">
+            <p class="static-text">I'm Lex.</p>
+            <p class="static-text">I'm an <span class="dynamic-text">Aspiring Web Developer</span>.</p>
+            <p class="short-description">
+                Thank you for visiting my website. Explore the latest projects I’ve been working on.
+            </p>
+        </div>
+    </section>
 
-    <main>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-tile">
+            <a href="https://github.com/Lexxnl/JiggleifyWebsite" target="_blank">Jiggleify</a>
+        </div>
+        <div class="project-tile">
+            <a href="https://github.com/Lexxnl/TkPygame" target="_blank">TkPygame</a>
+        </div>
+        <div class="project-tile">
+            <a href="https://github.com/Lexxnl/FreeCodeCamp-Projects" target="_blank">FreeCodeCamp Projects</a>
+        </div>
+    </section>
 
-    </main>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Lex Kimmel. Built with ❤️ and code.</p>
+        <p>Find me on <a href="https://github.com/Lexxnl" target="_blank">GitHub</a>.</p>
+    </footer>
+
 
     <script src="script.js"></script>
 </body>
